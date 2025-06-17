@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --h1--size: clamp(2rem, 5vw, 4rem);
-    --h2--size: clamp(1.75rem, 4vw, 3rem);
-    --h3--size: clamp(1.5rem, 3vw, 2.5rem);
-    --p--size: clamp(1rem, 2vw, 1.5rem);
+    --h1--size: clamp(1.2rem, 4vw, 3.5rem);
+    --h2--size: clamp(1.5rem, 3vw, 2.75rem);
+    --h3--size: clamp(1.25rem, 2vw, 2.25rem);
+    --p--size: clamp(0.75rem, 1.75vw, 1.25rem);
     --small--size: clamp(0.75rem, 1vw, 1rem);
 }
 
@@ -74,10 +74,7 @@ body {
     transition: background-color 0.3s ease-out;
 }
 .nav a:first-child {
-    border-radius: 1rem 1rem 0 0;
-}
-.nav a:last-child {
-    border-radius: 0 0 1rem 1rem;
+    border-radius: 0 1rem 0 0;
 }
 
 .nav a:hover {
@@ -162,4 +159,7 @@ body {
         border-radius: 0;
         text-align: center;
     }
+    .nav a:first-child {
+    border-radius: 0;
+}
 }
